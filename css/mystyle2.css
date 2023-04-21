@@ -1,0 +1,28 @@
+div
+{
+     font-size: 1.5rem;
+     /* background-color: rgb(200, 200, 247); */
+     border:  2px solid black;
+     padding: 20px;
+     width: 50%;
+     margin-left: 50px;
+}
+div:hover
+{
+     background-color: rgb(0, 0, 0);
+     color: yellow;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a:visited
+{
+     color: yellow;
+}
+a:link
+{
+     color: greenyellow;
+}
+input:active
+{
+     color: red;
+     width: 1000px;
+}
