@@ -1,0 +1,19 @@
+#parentdiv>div
+{
+     background-color: rgb(253, 199, 199);
+     border: 2px solid black;
+     padding: 10px;
+     font-size: 1.5rem;
+     height: 50px;
+     width: 100px;
+     margin-right: 30px;
+}
+#parentdiv
+{
+     background-color: rgb(239, 255, 216);
+     display: grid;
+     grid-template-rows: auto auto auto;
+     grid-template-columns: auto auto auto;
+     grid-auto-flow: column;
+     gap: 30px;  
+}
