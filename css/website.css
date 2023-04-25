@@ -1,25 +1,28 @@
-*
-{
+* {
      margin: 0px;
      padding: 0px;
 }
-.my_logo
-{
+
+body {
+     background-color: #04050A;
+}
+
+.my_logo {
      height: 70px;
 }
-#logo_text
-{
+
+#logo_text {
      display: flex;
      gap: 20px;
 }
-#logo_text>h1
-{
-     margin-top:20px ;
+
+#logo_text>h1 {
+     margin-top: 20px;
      font-family: 'Bruno Ace SC', cursive;
-     letter-spacing:1px;
+     letter-spacing: 1px;
 }
-#menu
-{
+
+#menu {
      background-color: #04050A;
      color: #07FFCB;
      padding-left: 20px;
@@ -27,29 +30,75 @@
      display: flex;
      justify-content: space-between;
 }
-#menu_links
-{
+
+#menu_links {
      display: flex;
      gap: 50px;
      padding-top: 15px;
      padding-bottom: 20px;
      font-size: 1.5rem;
 }
-a:visited,a:link
-{
+
+a:visited,
+a:link {
      color: white;
      text-decoration: none;
 }
-#menu_links>div:hover
-{
+
+#menu_links>div:hover {
      background-color: #07FFCB;
      /* color: black; */
 }
-a:hover
-{
+
+a:hover {
      color: black;
 }
-#menu_links>div
-{
+
+#menu_links>div {
      padding: 5px;
+}
+
+#banner {
+     background-image: url("website_images/banner.jpg");
+     height: 550px;
+     width: 100%;
+     background-size: cover;
+}
+
+#aboutus {
+     margin-top: 60px;
+     padding: 70px;
+     display: flex;
+     gap: 30px;
+}
+
+.aboutus_image,
+.aboutus_text {
+     width: 50%;
+}
+
+#about_img {
+     width: 100%;
+     border-radius: 20px;
+     box-shadow: rgba(61, 61, 61, 0.19) 0px 10px 20px, rgba(69, 69, 69, 0.23) 0px 6px 6px;
+}
+
+h1 {
+     font-family: 'Bruno Ace SC', cursive;
+     letter-spacing: 1px;
+     color: #07FFCB;
+}
+
+.aboutus_heading {
+     margin-top: 50px;
+}
+
+p {
+     color: whitesmoke;
+     font-size: 1.3rem;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.about_text {
+     margin-top: 40px;
 }
