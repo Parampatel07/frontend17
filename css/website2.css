@@ -1,0 +1,172 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+body {
+     background-color: #04050A;
+}
+
+.my_logo {
+     height: 70px;
+}
+
+#logo_text {
+     display: flex;
+     gap: 20px;
+}
+
+#logo_text>h1,
+h1 {
+     margin-top: 20px;
+     font-family: 'Bruno Ace SC', cursive;
+     letter-spacing: 1px;
+     color: #07FFCB;
+}
+
+#menu {
+     background-color: #04050A;
+
+     padding-left: 20px;
+     padding-right: 40px;
+     display: flex;
+     justify-content: space-between;
+}
+
+#menu_links {
+     display: flex;
+     gap: 50px;
+     padding-top: 15px;
+     padding-bottom: 20px;
+     font-size: 1.5rem;
+}
+
+a:visited,
+a:link {
+     color: white;
+     text-decoration: none;
+}
+
+#menu_links>div:hover {
+     background-color: #07FFCB;
+     /* color: black; */
+}
+
+a:hover {
+     color: black;
+}
+
+#menu_links>div {
+     padding: 5px;
+}
+
+#banner {
+     background-image: url("website_images/banner2.jpg");
+     height: 500px;
+     width: 100%;
+     background-size: cover;
+}
+
+#aboutus {
+     margin-top: 80px;
+     padding-left: 50px;
+     padding-right: 50px;
+     display: flex;
+     gap: 45px;
+     color: whitesmoke;
+     margin-bottom: 100px;
+}
+
+#aboutus_img {
+     height: 300px;
+     border-radius: 20px;
+     box-shadow: rgba(60, 60, 60, 0.19) 0px 10px 20px, rgba(67, 67, 67, 0.23) 0px 6px 6px;
+}
+
+.aboutus_text {
+     margin-top: 30px;
+     font-size: 1.2rem;
+     font-family: 'Montserrat', sans-serif;
+     padding-right: 40px;
+}
+
+#speciality_content {
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     color: whitesmoke;
+     gap: 40px;
+     margin-bottom: 100px;
+}
+
+#speciality {
+     padding-left: 40px;
+     padding-right: 40px;
+}
+
+#speciality>h1 {
+     margin-bottom: 35px;
+}
+
+.speciality_item {
+     background-color: #16171a;
+     padding: 20px;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.speciality_item>img {
+     margin-bottom: 20px;
+     height: 250px;
+     width: 250px;
+}
+
+.speciality_item:hover {
+     background-color: #c6f8ed;
+     color: black;
+     box-shadow: rgba(85, 85, 85, 0.3) 0px 19px 38px, rgba(87, 87, 87, 0.22) 0px 15px 12px;
+}
+
+#offer_text {
+     display: flex;
+     gap: 50px;
+     color: whitesmoke;
+     margin-top: 50px;
+}
+
+#offers {
+     padding-left: 40px;
+     padding-right: 40px;
+     margin-bottom: 200px;
+}
+
+.offer_item {
+     display: flex;
+     gap: 10px;
+     background-color: #16171a;
+     padding: 20px;
+}
+
+.offer_item>img {
+     width: 50%;
+}
+
+.offer_item>p {
+     margin-top: 50px;
+}
+
+.offer_item:hover {
+     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;     
+}
+#footer
+{
+     padding: 20px;
+     color: white;
+     background-color: #16171a;
+     display: flex;
+     justify-content: space-between;
+}
+#footer>div
+{
+     margin-left: 20px;
+     margin-right:20px ;
+}
